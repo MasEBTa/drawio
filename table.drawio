@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T10:57:29.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.4" etag="DX8uaXR7iQlZd5xUSO8D" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T16:55:56.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HJ_nHbmh1dv6p7x7Ef7r" version="21.7.4" type="github">
   <diagram name="Page-1" id="IRqSY0UORqlvK6jRo1As">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-1" value="User_credential&lt;br&gt;id&lt;br&gt;username&lt;br&gt;email&lt;br&gt;password&lt;br&gt;va_number" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sOJzw8-aGb0DBQRZUdF_-2" target="sOJzw8-aGb0DBQRZUdF_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-2" value="account&lt;br&gt;id&lt;br&gt;user_credential_id&lt;br&gt;ful_name&lt;br&gt;nik&lt;br&gt;phone&lt;br&gt;ocupation&lt;br&gt;place_of_birth&lt;br&gt;date_of_birth&lt;br&gt;postal_code" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sOJzw8-aGb0DBQRZUdF_-4" target="sOJzw8-aGb0DBQRZUdF_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sOJzw8-aGb0DBQRZUdF_-4" target="sOJzw8-aGb0DBQRZUdF_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-4" value="deposite&lt;br&gt;id&lt;br&gt;user_credential_id&lt;br&gt;deposite_amount&lt;br&gt;interest_rate&lt;br&gt;created_date&lt;br&gt;maturity_date&lt;br&gt;active" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-6" value="deposite_interest&lt;br&gt;id&lt;br&gt;created_date&lt;br&gt;interest_rate&lt;br&gt;duration" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="50" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-10" value="top_up&lt;br&gt;id&lt;br&gt;user_credential_id&lt;br&gt;top_up_amount&lt;br&gt;maturity_time&lt;br&gt;status" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="50" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sOJzw8-aGb0DBQRZUdF_-11" target="sOJzw8-aGb0DBQRZUdF_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-11" value="saldo&lt;br&gt;id&lt;br&gt;user_credential_id&lt;br&gt;total_saving" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="710" y="50" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-13" value="loan_duration&lt;br&gt;id&lt;br&gt;duration_month" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sOJzw8-aGb0DBQRZUdF_-14" target="sOJzw8-aGb0DBQRZUdF_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sOJzw8-aGb0DBQRZUdF_-14" value="loan&lt;br&gt;id&lt;br&gt;user_cred_id&lt;br&gt;payment_method&lt;br&gt;VANumber&lt;br&gt;countdown_time&lt;br&gt;status" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="395" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
