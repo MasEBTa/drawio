@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T16:14:59.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oM-z9QdocITlkSlv79QT" version="21.7.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-12T16:42:47.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IBboaRb6cg3xvz-jaPsX" version="21.7.4" type="github" pages="3">
   <diagram name="create" id="GQB9PMDlIEMigkQDYN1F">
     <mxGraphModel dx="880" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -246,7 +246,7 @@
         <mxCell id="w14hrbgYsriXezAnGktg-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w14hrbgYsriXezAnGktg-143" target="w14hrbgYsriXezAnGktg-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w14hrbgYsriXezAnGktg-143" value="depositoInterest = get Deposito Interest Data By Id;&lt;br&gt;maturity_date = createDate + depositoInterest.duration" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w14hrbgYsriXezAnGktg-143" value="depositoInterest = get Deposito Interest Data By Id;&lt;br&gt;depositoInterestRate = depositoInterest.rate&lt;br&gt;maturity_date = createDate + depositoInterest.duration" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="126.25" y="1555" width="175.5" height="95" as="geometry" />
         </mxCell>
         <mxCell id="w14hrbgYsriXezAnGktg-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w14hrbgYsriXezAnGktg-145" target="w14hrbgYsriXezAnGktg-147">
