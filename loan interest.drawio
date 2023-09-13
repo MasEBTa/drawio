@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T07:39:17.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bMJeKY4Ak_9LGMIap9qq" version="21.7.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-13T09:12:26.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="anfyHJTEdKd44SOv_hag" version="21.7.4" type="github" pages="5">
   <diagram name="create" id="5u0lxk5VhcgYXx4nzSjy">
     <mxGraphModel dx="880" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xLi15-Slrgv9SJWUx5Ht-1" value="&lt;h1&gt;Loan_interest&lt;/h1&gt;&lt;div&gt;create&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="xLi15-Slrgv9SJWUx5Ht-1" value="&lt;h1&gt;Loan_duration&lt;/h1&gt;&lt;div&gt;create&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xLi15-Slrgv9SJWUx5Ht-3" value="data :&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;duration_month&lt;br&gt;loan_interest_rate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -307,10 +307,10 @@
         <mxCell id="xLi15-Slrgv9SJWUx5Ht-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xLi15-Slrgv9SJWUx5Ht-173" target="xLi15-Slrgv9SJWUx5Ht-177" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xLi15-Slrgv9SJWUx5Ht-173" value="do query create to table loan_interest" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="xLi15-Slrgv9SJWUx5Ht-173" value="do query create to table loan_duration" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="692" y="891" width="130" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="xLi15-Slrgv9SJWUx5Ht-175" value="table loan interest" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="xLi15-Slrgv9SJWUx5Ht-175" value="table loan duration" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="560" y="885.5" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xLi15-Slrgv9SJWUx5Ht-180" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xLi15-Slrgv9SJWUx5Ht-177" target="xLi15-Slrgv9SJWUx5Ht-179" edge="1">
